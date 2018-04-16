@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(title: "종료", style: .default, handler: { (action: UIAlertAction) -> Void in
             self.view.backgroundColor = UIColor.red
         })
+        //후행 클로져 let okAction = UIAlertAction(title: "종료", style: .default, {(action: UIAlertAction) -> Void in
         let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: { (action: UIAlertAction) -> Void in
             self.view.backgroundColor = UIColor.white
         })
